@@ -1,0 +1,37 @@
+#calculator{
+    background-color: aqua;
+    border: 1px solid rgb(168, 159, 168);
+    border-radius: 5px;
+    width: 182px;
+}
+#display{
+    transition: all;
+    transition-duration: 10ms;
+    margin: 10px;
+    background-color: rgb(226, 253, 252);
+    width: 85%;
+    font-size: 25px;
+}
+
+.button-cal{
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+}
+.button{
+    transition: all;
+    transition-duration: 10ms;
+    box-shadow: 5px aqua;
+    background-color: black;
+    color: aqua;
+    align-items: center;
+    width: 50px;
+    height: 44px;
+    margin: 3px;
+}
+.button:hover{
+    background-color: brown;
+    transition: all;
+    transition-duration: 60ms;
+    transition-timing-function: ease-in;
+}
